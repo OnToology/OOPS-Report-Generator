@@ -14,7 +14,7 @@
 // *  limitations under the License.
 // */
 ////package vocab;
-//
+//package com.oeg.oops;
 //
 //import com.hp.hpl.jena.datatypes.RDFDatatype;
 //import com.hp.hpl.jena.ontology.Individual;
