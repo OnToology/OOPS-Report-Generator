@@ -1,3 +1,11 @@
+
+
+target
+oopshtml.iml
+*.DS_Store
+
+.idea*
+
 *.class
 
 # Mobile Tools for Java (J2ME)
