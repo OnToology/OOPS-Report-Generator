@@ -21,7 +21,7 @@ import java.io.File;
 /**
  *
  * Original @author Daniel Garijo
- * Edited by Ahmad Alobaid for OnToology needs
+ *
  */
 public class CreateOOPSEvalPage {
     private final Vocabulary c;

@@ -16,9 +16,6 @@
 //package vocab;
 package com.oeg.oops;
 
-import com.oeg.oops.TextConstants.Warning;
-import com.oeg.oops.TextConstants.Error;
-
 import org.apache.jena.datatypes.RDFDatatype;
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;

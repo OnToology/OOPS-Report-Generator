@@ -43,7 +43,7 @@ public class Vocabulary {
 
     public Vocabulary(String uri) {
         this.uri = uri;
-        //this.supportedSerializations = VocabUtils.getSerializationsOfVocab(uri);
+        this.supportedSerializations = VocabUtils.getSerializationsOfVocab(uri);
     }
 
     public Vocabulary(String title, String uri, String lovURI, ArrayList<String> supportedSerializations, String license, String description, ArrayList<String> languages, ArrayList<String> domains, String prefix, String creationDate, String lastModifiedDate) {

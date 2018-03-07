@@ -21,5 +21,26 @@ public class Main{
     public static void main(String[] args){
         System.out.println("Hello, World");
 
+        for(int i=0;i<args.length;i++){
+            System.out.println("arg: "+args[i]);
+        }
+//        if(args.length<2){
+//            System.out.println("expect 2 arguments: vocabulary-uri and output-directory");
+//        }
+//        else{
+//            String uri = args[0];
+//            String output_dir = args[1];
+        if(true){
+            String uri = "https://raw.githubusercontent.com/ahmad88me/demo/master/alo.owl";
+            String output_dir = "./output";
+
+            System.out.println("uri: "+uri);
+            System.out.println("output dir: "+output_dir);
+            Vocabulary v = new Vocabulary(uri);
+//            CreateOOPSEvalPage coep = new CreateOOPSEvalPage(v);
+//            coep.createPage(output_dir);
+        }
+
+
     }
 }
